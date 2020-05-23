@@ -6,6 +6,8 @@ Getting Started with Spring Boot
 - Installation  
 Get the latest version, for instance Eclipse IDE 2020‑03 for Java EE.  
 - Install Spring Tool 4 plug-in.
+- Make sure that you have Maven plug-in alaredy available.
+
 ### Maven   
 - Installation  
 Download maven and extract it  
