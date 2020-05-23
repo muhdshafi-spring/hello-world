@@ -3,8 +3,13 @@ Getting Started with Spring Boot
 
 ## Environment Set up
 ### Eclipse
-- Installation 
-Get the latest version, for instnce Eclipse IDE 2020‑03 for Java EE. 
-
-
+- Installation  
+Get the latest version, for instance Eclipse IDE 2020‑03 for Java EE.  
+- Install Spring Tool 4 plug-in.
+### Maven   
+- Installation  
+Download maven and extract it  
+Add JAVA_HOME and MAVEN_HOME in environment variable  
+Add maven path in environment variable  
+Verify Maven(mvn −version )  
 ### Spring
