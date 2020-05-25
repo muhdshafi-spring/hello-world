@@ -63,7 +63,8 @@ Field injection drawbacks
 - Your classes have tight coupling with your DI container and cannot be used outside of it  
 - Your classes cannot be instantiated (for example in unit tests) without reflection. You need the DI container to instantiate them, which makes your tests more like integration tests  
 - Your real dependencies are hidden from the outside and are not reflected in your interface (either constructors or methods)  
-- It is really easy to have like ten dependencies. If you were using constructor injection, you would have a constructor with ten arguments, which would signal that something is fishy. But you can add injected fields using field injection indefinitely. Having too many dependencies is a red flag that the class usually does more than one thing, and that it may violate the Single Responsibility Principle.  
+- It is really easy to have like ten dependencies. If you were using constructor injection, you would have a constructor with ten arguments, which would signal that something is fishy. But you can add injected fields using field injection indefinitely. Having too many dependencies is a red flag that the class usually does more than one thing, and that it may violate the Single Responsibility Principle. 
+
 **Best Practice is to coding against Interfaces**  
 
 
