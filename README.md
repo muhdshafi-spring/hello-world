@@ -66,6 +66,19 @@ Field injection drawbacks
 - It is really easy to have like ten dependencies. If you were using constructor injection, you would have a constructor with ten arguments, which would signal that something is fishy. But you can add injected fields using field injection indefinitely. Having too many dependencies is a red flag that the class usually does more than one thing, and that it may violate the Single Responsibility Principle. 
 
 **Best Practice is to coding against Interfaces**  
+### @SpringBootApplication
+Spring needs to know which packages to scan for annotated components in order to add them to the IoC container.  
+we typically set the main application class with the **@SpringBootApplication** annotation. Under the hood, @SpringBootApplication is a composition of the **@Configuration**, **@ComponentScan**, and **@EnableAutoConfiguration** annotations. With this default setting, Spring Boot will auto scan for components in the current package (containing the @SpringBoot main class) and its sub packages.  
+### @EnableAutoConfiguration   
+Spring Boot auto-configuration attempts to automatically configure your Spring application based on the jar dependencies that you have added. For example, if HSQLDB is on your classpath, and you have not manually configured any database connection beans, then Spring Boot auto-configures an in-memory database.  
+### @Configuration  
+Use @Configuration annotation on top of any class to declare that this class provides one or more @Bean methods and may be processed by the Spring container to generate bean definitions and service requests for those beans at runtime.  
+### @ComponentScan  
+It is used to tell the container where to look for annotated classes.  
+
+
+### Profile  
+### Qualifier  
 
 
  
