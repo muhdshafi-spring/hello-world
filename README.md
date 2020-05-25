@@ -44,10 +44,13 @@ Check the Log to confirm that our Project is running fine.
  - Components  
  Spring Component annotation is used to denote a class as Component. It means that Spring framework will autodetect these classes for dependency injection when annotation-based configuration and classpath scanning is used.   
 
- - Specialization of Component
-  - Service
-  - Repository
-  - Controller
+ - Specialization of Component  
+   - Service  
+   Denotes that the class provides some services. Our utility classes can be marked as Service classes.  
+   - Repository  
+   usually it’s used with DAO implementations that deal with database tables.
+   - Controller  
+   Mostly used with web applications or REST web services to specify that the class is a front controller and responsible to handle user request and return appropriate response.
  
  
  
