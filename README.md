@@ -38,4 +38,17 @@ Check the Log to confirm that our Project is running fine.
 - Inversion of Control is a principle in software engineering by which the control of objects or portions of a program is transferred to a container or framework.  
 - Dependency injection is a pattern through which to implement IoC, where the control being inverted is the setting of object's dependencies.  
 
+ -  Spring Context  
+ Spring contexts are also called Spring IoC containers, which are responsible for instantiating, configuring, and assembling beans by reading configuration metadata from XML, Java annotations, and/or Java code in the configuration files.  
+ 
+ -  Components  
+ Spring Component annotation is used to denote a class as Component. It means that Spring framework will autodetect these classes for dependency injection when annotation-based configuration and classpath scanning is used.   
 
+###Example
+ - Item 1
+ - Item 2
+  - Sub Item 1
+  - Sub Item 2
+ 
+ 
+ 
