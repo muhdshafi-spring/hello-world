@@ -33,9 +33,9 @@ Check the Log to confirm that our Project is running fine.
 ### Frist Database
 
 
-### Notes  
-- DI vs IoC 
-Inversion of Control is a principle in software engineering by which the control of objects or portions of a program is transferred to a container or framework.  
-Dependency injection is a pattern through which to implement IoC, where the control being inverted is the setting of object's dependencies.  
+## Notes  
+### DI vs IoC 
+- Inversion of Control is a principle in software engineering by which the control of objects or portions of a program is transferred to a container or framework.  
+- Dependency injection is a pattern through which to implement IoC, where the control being inverted is the setting of object's dependencies.  
 
 
