@@ -54,7 +54,7 @@ Check the Log to confirm that our Project is running fine.
  - Bean  
  In Spring, the objects that form the backbone of your application and that are managed by the Spring IoC container are called beans. A bean is an object that is instantiated, assembled, and otherwise managed by a Spring IoC container.  
  When a class is decorated with Component annotation or it's pecialization annotation, that class get registered in the Spring context, and it can be used by other classes.  
- The default name of the bean will same as class bu the first letter in lower case.  
+ The default name of the bean will same as class but the first letter in lower case.  
  
  
  
